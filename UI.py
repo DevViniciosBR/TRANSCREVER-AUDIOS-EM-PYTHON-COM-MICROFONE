@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext
 import speech_recognition as sr
 from TTS import TextToSpeech
-
+# pip install -r requirements.txt
 class ZippyVoiceApp:
     def __init__(self, master):
         self.master = master
@@ -304,4 +304,5 @@ O sistema continuará funcionando, mas a gravação não estará disponível."""
 if __name__ == "__main__":
     root = tk.Tk()
     app = ZippyVoiceApp(root)
+
     root.mainloop()
